@@ -396,8 +396,12 @@
         </section>
 
         <!----------------->
-        <!-- Blogs -->
+        <!-- Updates -->
         <!----------------->
+
+
+
+
 
         <!----------------->
         <!-- Team Map -->
@@ -442,9 +446,52 @@
       </div>
 
       <!----------------->
-      <!-- Contact  -->
+      <!-- Popup Widget -->
       <!----------------->
-      <div class="o-popinContact -bgprimary" data-module-popin-contact="widget"></div>
+      <div class="o-popinContact -bgprimary" -isActive data-module-popin-contact="widget" style="--height: 224px;">
+          <button class="o-popinContact__title" data-popin-contact="toggle" type="button">
+              <figure class="a-image a-hand js-image">
+                  <img alt="" class="a-image__image js-image-image -landscape" height="421" src="#" srcset="# 600w, # 1024w, # 1440w, # 1920w" width="467">
+              </figure>
+              <p class="-clrcream">
+                <span class="tx-xs"> Hey you there,</span>
+                <span class="tx-m -txalt -txupp">wanna talk about this ?<span>
+              </p>
+              <span class="a-button -round">
+                  <svg aria-hidden="true" class="a-svg -close" focusable="false">
+                      <use href="#icon-close"></use>
+                  </svg> 
+                  <svg aria-hidden="true" class="a-svg -arrow-down" focusable="false">
+                      <use href="#icon-arrow-down"></use>
+                  </svg>
+              </span>
+          </button>
+          <div class="o-popinContact__scroll">
+              <div class="o-popinContact__content" data-popin-contact="content">
+                  <a class="o-popinContact__choice | -bgtertiary" href="#">
+                      <span>
+                          <span class="tx-xs">I want to</span>
+                          <span class="tx-m -txalt -txupp">choice 1</span>
+                      </span>
+                      <span class="a-button -primary -round"> 
+                          <svg aria-hidden="true" class="a-svg -arrow-right" focusable="false">
+                              <use href="#icon-arrow-right"></use>
+                          </svg>
+                      </span>
+                  </a>
+                  <a class="o-popinContact__choice | -bgtertiary" href="#">
+                      <span>
+                          <span class="tx-xs">I want to</span>
+                          <span class="tx-m -txalt -txupp">choice 2</span>
+                      </span>
+                      <span class="a-button -primary -round">
+                          <svg aria-hidden="true" class="a-svg -arrow-right" focusable="false">
+                              <use href="#icon-arrow-right"></use>
+                          </svg>
+                      </span>
+                  </a>
+              </div>
+          </div>
     </main>
 
     <!----------------->
