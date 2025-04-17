@@ -1,0 +1,13 @@
+/*This is the global css that will apply to all components */
+
+button{
+padding: 0;
+border:0;
+background: none;
+font-size: 100%;
+font-family: inherit;
+
+}
+button:focus{
+outline: none;
+}

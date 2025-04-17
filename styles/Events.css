@@ -1,0 +1,87 @@
+/* src/styles/Events.css */
+.events {
+  background-color: #fefbf4;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #881c27;
+}
+
+.events h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.events .highlight {
+  background-color: #d9a441;
+  color: #320a0a;
+  padding: 0 0.5rem;
+}
+
+.event-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.event-card {
+  background: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  width: 320px;
+  text-align: left;
+}
+
+.event-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.event-meta {
+  padding: 1.5rem;
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.tag {
+  padding: 0.2rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  color: white;
+}
+
+.tag1 { background-color: #c6ef00; color: #320a0a; }
+.tag2 { background-color: #d9a441; color: #320a0a; }
+.tag3 { background-color: #5c1a1a; }
+
+.date {
+  margin-left: auto;
+  font-size: 0.85rem;
+  color: #881c27;
+}
+
+.event-meta h3 {
+  margin-top: 0.5rem;
+}
+
+.event-meta p {
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+
+.event-meta a {
+  color: #881c27;
+  font-weight: bold;
+  text-decoration: none;
+}
