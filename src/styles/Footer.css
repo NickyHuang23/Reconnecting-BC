@@ -15,6 +15,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
+  
 }
 
 .footer nav a {
@@ -25,4 +26,7 @@
 
 .footer nav a:hover {
   text-decoration: underline;
+}
+.footer p {
+  color: white;
 }

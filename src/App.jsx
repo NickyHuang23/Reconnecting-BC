@@ -1,13 +1,14 @@
 // App.jsx
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Mission from "./components/Mission";
-import Events from "./components/Events";
-import Footer from "./components/Footer";
-import Aboutpage from "./page/Aboutpage";
-import Resultpage from "./page/Resultpage";
+import Header from "./components/Header.jsx";
+import Mission from "./components/Mission.jsx";
+import Events from "./components/Events.jsx";
+import Footer from "./components/Footer.jsx";
+import Aboutpage from "./page/Aboutpage.jsx";
+import Resultpage from "./page/Resultpage.jsx";
+import Contactpage from "./page/Contactpage.jsx";
+import Navbar from "./components/Navbar.jsx";
 import "./styles/App.css";
 
 function Home() {
@@ -29,6 +30,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Aboutpage />} />
+        <Route path="/contact" element={<Contactpage />} />
         <Route path="/results" element={<Resultpage />} />
       </Routes>
     </Router>

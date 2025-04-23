@@ -1,5 +1,6 @@
 // src/components/Footer.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Footer.css";
 
 export default function Footer() {
@@ -7,10 +8,10 @@ export default function Footer() {
     <footer className="footer">
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About UGBC</a></li>
-          <li><a href="#">Results</a></li>
-          <li><a href="#">Join</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About UGBC</Link></li>
+          <li><Link to="/results">Results</Link></li>
+          <li><a href="https://www.bc.edu/bc-web/offices/studentaffairs/sites/ugbc.html" target="_blank" rel="noopener noreferrer">Join</a></li>
         </ul>
       </nav>
       <p>&copy; {new Date().getFullYear()} UGBC, Boston College. All rights reserved.</p>
